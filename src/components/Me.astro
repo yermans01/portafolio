@@ -1,0 +1,46 @@
+---
+import Card from "./Card/Card.astro"
+import Boton from "./Boton/Boton.astro"
+import { Icon } from "astro-icon/components";
+---
+<Card colSpan="md:col-span-3" rowSpan="md:row-span-4">
+    <div class="flex w-full h-full">
+      <div class="flex flex-col justify-between md:max-h-[300px] gap-4">
+        <div class="flex flex-col h-full">
+          <h6 class="text-sm font-light m-0">Hola</h6>
+          <p class="m-0 font-light text-xl ">
+            Soy <b class="font-bold">Germán Salazar</b>, desarrollador Trainnee Fronted, he estado adquiriendo experiencia por medio del aprendizaje autodidacta. Echa un vistazo a mi trabajo y no dudes en ponerte en contacto conmigo para colaborar en emocionantes proyectos de desarrollo frontend.
+          </p>
+        </div>
+        <div class="flex gap-4">
+          <a href="https://github.com/yermans01" aria-label="Github" target="_blank">
+            <Boton aria-label="Github">
+              <Icon name="ri:github-fill" class="h-6" />
+              <span class="sr-only">Perfil de GitHub</span>
+            </Boton>
+          </a>
+
+          <a href="https://www.linkedin.com/in/german-salazar-%C3%B1/" aria-label="Linkedin" target="_blank">
+            <Boton aria-label="Linkedin">
+              <Icon name="ri:linkedin-box-fill" class="h-6" />
+              <span class="sr-only">Perfil de Linkedin</span>
+            </Boton>
+          </a>
+
+          <a href="/public/CurriculumGermanS.pdf" download="CurriculumGermanS.pdf" aria-label="cv" target="_blank">
+            <Boton aria-label="cv">
+              <Icon name="ri:file-pdf-fill" class="h-6" />
+              <span class="sr-only">CV</span>
+            </Boton>
+          </a>
+        </div>
+      </div>
+      <img
+        width="300"
+        height="300"
+        src="/yo.png"
+        class="w-auto max-h-[300px] select-none absolute right-[-110px] bottom-[-20px] z-[-1] opacity-50 md:opacity-100 md:relative md:right-auto md:bottom-auto md:z-auto pointer-events-none"
+        alt="memoji de Germán"
+      />
+    </div>
+  </Card>

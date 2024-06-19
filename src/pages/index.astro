@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card/Card.astro";
+import Me from "../components/Me.astro"
+import Abaout from "../components/Abaout.astro";
+import Contacto from "../components/Contacto.astro"
+import Proyectos from "../components/Proyectos.astro"
+---
+
+<Layout
+  title="Germán Salazar - Trainee Frontend"
+  description="Desarrollador web Frontend">
+  <main
+    class="text-black m-auto p-2 grid gap-2 max-w-6xl overflow-hidden relative w-full sm:p-4 sm:gap-2 md:grid-cols-2 md:gap-3 md:p-6 lg:h-screen lg:grid-rows-8 lg:grid-cols-4 lg:gap-4 lg:max-h-[800px]">
+    <Me />
+    <Abaout />
+    <Contacto />
+    <Proyectos />
+    <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
+      <p class="text-xs">
+        Editado por Germán Salazar, Creador <a
+          class="text-red-800" href="https://github.com/Ladvace" target="_blank">Gianmarco</a>
+      </p>
+    </Card>
+  </main>
+</Layout>

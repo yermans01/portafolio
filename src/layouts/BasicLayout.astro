@@ -1,0 +1,54 @@
+---
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description} = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="icon" href="./saludo.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="preconnect" href="https://cdn.fontshare.com" />
+    
+  </script>
+  </head>
+  <body
+    class="bg-slate-700 md:h-screen flex flex-col justify-center items-center">
+    
+    <slot />
+    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+  </body>
+  
+</html>
+
+<style is:global>
+  body {
+    margin: 0;
+    font-family: "Satoshi", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Cabinet Grotesk", sans-serif;
+  }
+  p {
+    font-family: "Satoshi";
+  }
+
+  b {
+    font-weight: 700 !important;
+  }
+</style>

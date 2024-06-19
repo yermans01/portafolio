@@ -1,0 +1,23 @@
+---
+import Contenido from './Contenido.astro';
+
+interface Props {
+  title?: string;
+  body?: string;
+  colSpan?: string;
+  rowSpan?: string;
+  href?: string;
+  colorText?: string;
+}
+
+const { title, body, colSpan, rowSpan, href, colorText } = Astro.props;
+---
+  <div class={`overflow-hidden bg-slate-500 shadow-lg rounded-lg p-6 border border-slate-100 hover:border-gray-700 flex-none justify-start relative transform w-full transition duration-75 ease-in-out col-span-1 h-auto ${
+      colSpan || "md:col-span-2"
+    } ${rowSpan || ""}`}>
+    {
+    <Contenido title={title} body={body}>
+      <slot />
+    </Contenido>
+    }
+</div>
