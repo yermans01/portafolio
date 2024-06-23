@@ -1,54 +1,38 @@
-# Astro Starter Kit: Basics
+# Portafolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+Mi portafolio para dar a conocer los proyectos realizados por mí.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Descripción
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Portafolio para mostrar los proyectos que puedo realizar, en el lado del frontend o full stack.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-## 🚀 Project Structure
+## Visuales
+![Imagen del portafolio](https://postimg.cc/nsvG1D6S)
 
-Inside of your Astro project, you'll see the following folders and files:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Construido Con 🛠️
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Tecnologías usadas en este proyecto.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- [Astro JS](https://docs.astro.build/en/getting-started/) - El framework utilizado para este portafio.
+- [Astro Icon](https://www.astroicon.dev/getting-started/) - Para los iconos.
+- [Tailwind](https://tailwindcss.com/docs/installation) - Tailwind css, para los estilos de la página.
+- [Flowbite](https://flowbite.com/docs/getting-started/quickstart/) - Diseño de carrusel.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Roadmap
 
-## 🧞 Commands
+Se harán actualizaciones a medida que se vallan creando los sistemas.-
 
-All commands are run from the root of the project, from a terminal:
+## Versionado 📌
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Use [Git](https://git-scm.com) para el versionado y cambios realizados en el proyecto.
 
-## 👀 Want to learn more?
+## Autores ✒️
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **Gianmarco Ladvace** - _Developer and design enthusiast_ - [Ladvace](https://github.com/Ladvace)
+
+El creo este portafolio y fue editado para su uso.
+
+
+⌨️ con ❤️ por [Germán Salazar](https://yermans01.github.io/) 😊
