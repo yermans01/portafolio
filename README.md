@@ -32,7 +32,7 @@ Use [Git](https://git-scm.com) para el versionado y cambios realizados en el pro
 
 - **Gianmarco Ladvace** - _Developer and design enthusiast_ - [Ladvace](https://github.com/Ladvace)
 
-El creo este portafolio y fue editado para su uso.
+El creo este portafolio, y fue editado para su uso.
 
 
 ⌨️ con ❤️ por [Germán Salazar](https://yermans01.github.io/) 😊
