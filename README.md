@@ -8,7 +8,7 @@ Portafolio para mostrar los proyectos que puedo realizar, en el lado del fronten
 
 
 ## Visuales
-![Imagen del portafolio](https://postimg.cc/nsvG1D6S)
+![Imagen del portafolio](https://i.postimg.cc/k5HYqNwC/portafolio.png)
 
 
 ## Construido Con 🛠️
