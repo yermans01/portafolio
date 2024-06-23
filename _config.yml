@@ -1,0 +1,5 @@
+baseurl: "/yermans01"
+url: "https://yermans01.github.io"
+
+title: "Portafolio"
+description: creada con astro js, TailwindCSS y Flowbite
